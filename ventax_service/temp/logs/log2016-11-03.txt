@@ -2,3 +2,5 @@
 [2016-11-03 15:30:54] [INFO] [ioteca_service_apps.auths_api.user_view:77] [/api/auths/localuserinfo/] [127.0.0.1] [admin] [GET] User is authenticated
 [2016-11-03 15:38:05] [INFO] [ioteca_service_apps.auths_api.user_view:77] [/api/auths/localuserinfo/] [127.0.0.1] [admin] [GET] User is authenticated
 [2016-11-03 17:15:37] [INFO] [ventax_service_apps.auths_api.user_view:77] [/api/auths/localuserinfo/] [127.0.0.1] [admin] [GET] User is authenticated
+[2016-11-03 17:39:26] [INFO] [ventax_service_apps.auths_api.user_view:77] [/api/auths/localuserinfo/] [127.0.0.1] [admin] [GET] User is authenticated
+[2016-11-03 17:48:43] [INFO] [ventax_service_apps.auths_api.user_view:78] [/api/auths/localuserinfo/] [127.0.0.1] [admin] [GET] User is authenticated

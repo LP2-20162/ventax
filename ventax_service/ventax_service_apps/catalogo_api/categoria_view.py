@@ -7,8 +7,10 @@ from ventax_service_apps.catalogo.models.categoria import Categoria
 
 
 class CategoriaSerializer(serializers.ModelSerializer):
+
     class Meta:
         model = Categoria
+        fields = '__all__'
         # fields = ('url', 'username', 'email', 'is_staff')
 
 
