@@ -177,4 +177,18 @@ app.constant('ROUTERS', [{
         "templateUrl": "ventax_web_apps/catalogo_web/views/autores/form.html"
     }
 
+}, {
+    "catalogo.setup": {
+        "url": "/setup",
+        "template": "<div ui-view ></div>"
+    },
+    "catalogo.setup.catalogacion": {
+        "url": "/catalogacion",
+        "data": {
+            "section": "Setup",
+            "page": "Catalogación"
+        },
+        "templateUrl": "ventax_web_apps/catalogo_web/views/catalogacion/index.html"
+    }
+
 }]);

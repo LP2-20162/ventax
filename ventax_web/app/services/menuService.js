@@ -104,9 +104,28 @@ app
                 title: 'Autores',
                 state: 'catalogo.catalogo.autores',
                 type: 'link'
+            },
+            {
+                title: 'Autores2',
+                state: 'catalogo.catalogo.autores2',
+                type: 'link'
             }, ]
         }]
     });
+    sections.push({
+
+        menu: [{
+            title: 'Catálogo Setup',
+            type: 'toggle',
+            state: 'catalogo.setup',
+            menu_items: [{
+                title: 'Catalogación',
+                state: 'catalogo.setup.catalogacion',
+                type: 'link'
+            } ]
+        }]
+    });
+
 
     authService.getMenu().then(function(r) {
         menu = r.data;
